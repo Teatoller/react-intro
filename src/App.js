@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+const Greetings = (props) => <div>Hello!! {props.firstName} {props.lastName} !</div>;
 
 const App = () => (
       <div className="App">
@@ -9,14 +10,9 @@ const App = () => (
           <p>
             Edit <code>src/App.js</code> and save to reload.
           </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
+         <div>
+           <Greetings firstName="Steven" lastName="Ennis"/>
+         </div>
         </header>
       </div>
     );
