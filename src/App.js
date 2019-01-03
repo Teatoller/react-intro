@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-const Greetings = (props) => <div>Hello!! {props.firstName} {props.lastName} !</div>;
+const Greetings = (props) => <div>Hello! {props.firstName} {props.lastName} !</div>;
 
 const App = () => (
       <div className="App">
